@@ -175,7 +175,7 @@ body {
     color: #edede9;
 }
 
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 1000px) {
 
     .grid-container {
         grid-template-columns: 10rem 1fr 1fr 1fr 10rem;
