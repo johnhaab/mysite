@@ -201,11 +201,11 @@ body {
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transform: translate(2rem,0);
+        position: sticky;
+        transform: translate(8rem,0);
         padding-top: 12rem;
+        padding-bottom: 6rem;
+
     }
 
     .main-text {
@@ -237,7 +237,7 @@ body {
     .main-text p {
         font-size: 1.75rem;
         color: var(--secondary-text-color);
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
     }
     
     .main-text a {
