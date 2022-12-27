@@ -57,6 +57,11 @@ body {
 .socials {
     display: flex;
     gap: 2rem;
+}
+
+.socials a {
+    text-decoration: none;
+    color: var(--main-text-color);
     transition: all .3s ease;
 }
 
@@ -64,11 +69,6 @@ body {
     transform: scale(1.1);
     transition: all .3s ease-out;
     color: var(--main-color);
-}
-
-.socials a {
-    text-decoration: none;
-    color: var(--main-text-color);
 }
 
 .socials p {
@@ -286,4 +286,4 @@ body {
     }
 }
 
-/*1*/
+/*1234*/
